@@ -28,7 +28,11 @@ public class Game
 							}
 						System.out.println();
 					}
-				Board.board [randomrow] [randomcol] = "x";
+					while (playing)
+						{
+							System.out.println("Press enter to roll");
+							System.out.println(Board.board [randomrow] [randomcol]);
+						}
 			}
 		
 
